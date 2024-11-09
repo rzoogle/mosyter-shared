@@ -1,6 +1,6 @@
 # Mosyter Documentation
 
-> <img src="./ui/wireframes/threat.png" alt="Important Note Icon" width="64" height="64" /> 
+> <img src="./wireframes/threat.png" alt="Important Note Icon" width="64" height="64" /> 
 
 > **Important Note:**  
 > The wireframes provided are intended solely to describe the **functionality** and **behavior** of the application, not its final design or visual style. They outline layout, content organization, and interaction flow but do not represent the color schemes, typography, or styling choices that will be applied in the final UI.
@@ -34,7 +34,7 @@ Users can:
 ### Navigation Bar
 A fixed navigation bar at the top of the app shows the Mosyter logo followed by a Workspaces dropdown, and two tabs: Posts and Media Studio. The Workspaces dropdown allows quick navigation between workspaces and includes a "Create New" option at the bottom, using the html dropdown component of the styleguide. The active tab is visually highlighted. On the right side,a button Upgrade plan is shown followed by a notification bell that shows unread count in a bubble, followed by the user's profile picture which reveals a dropdown menu when clicked (containing Profile Settings, Help Center, and Logout). The bar remains consistent and accessible throughout the app's navigation. 
 
-![alt text](/ui/wireframes/navbar.png)
+![alt text](/wireframes/navbar.png)
 Users see:
 - Fixed top bar containing:
   * Mosyter logo (left)
@@ -66,7 +66,7 @@ Users can:
 ### Posts Tab
 The user sees a header with view toggle (Kanban/List) and filter button. In Kanban view, they see three columns (Draft/Ready/Template) with a create button at the top of Draft column. In List view, they see an infinite scrolling list. When clicking the filter button, a collapsible left panel appears with search and filter options.
 
-![alt text](/ui/wireframes/posts.png)
+![alt text](/wireframes/posts.png)
 
 Users see:
 - Header controls:
@@ -86,7 +86,7 @@ Users can:
 ### Media Studio Tab
 The user sees a top search bar with type filters (All/Images/Videos) and a two-panel layout. The left panel shows Private and Stock media lists with upload/import buttons. The main workspace shows either selected media preview with editing options or an import placeholder. When clicking import, a panel appears with stock media search.
 
-![alt text](/ui/wireframes/medias.png)
+![alt text](/wireframes/medias.png)
 
 Users see:
 - Top search bar with type filters (All/Images/Videos)
@@ -109,7 +109,7 @@ Users can:
 ## 3. Workspace Dashboard
 The user sees a top bar with three sections: team members list (left), social media accounts (middle), and create post button (right). Below, they see a calendar view with scheduled posts. On the left, a collapsible panel shows Posts and Comments tabs. The calendar header contains view controls and navigation tools.
 
-![alt text](/ui/wireframes/workspaceDashboard.png)
+![alt text](/wireframes/workspaceDashboard.png)
 
 ### Top Bar
 Users see:
@@ -152,7 +152,7 @@ When clicking workspace settings, the user sees a modal with four centered tabs:
 - Notifications: Toggle list for notification types
 - Tags: Colored tag management list
 
-![alt text](/ui/wireframes/woekspaceSettings.png)
+![alt text](/wireframes/woekspaceSettings.png)
 
 Users see:
 - Four tabs:
@@ -175,8 +175,8 @@ When managing team members, the user sees a modal with four tabs:
 - Permissions: Matrix table for access control
 - Notifications: Grid for notification preferences
 
-![alt text](/ui/wireframes/membersSettings.png)
-![alt text](/ui/wireframes/membersPermissions.png)
+![alt text](/wireframes/membersSettings.png)
+![alt text](/wireframes/membersPermissions.png)
 
 Users see:
 - Four tabs:
@@ -198,7 +198,7 @@ When configuring a social account, the user sees a profile-style modal with:
 - Two tabs: Content Themes (tone sliders) and Notifications
 - Delete option with warning message
 
-![alt text](/ui/wireframes/socialMediaSettings.png)
+![alt text](/wireframes/socialMediaSettings.png)
 
 Users see:
 - Account header with reconnect option
@@ -216,7 +216,7 @@ Users can:
 ### Create Post Modal
 When clicking Create Post button, the user sees a modal with social media accounts at the top as toggleable pills to select target platforms, with a plus button at the end to add more accounts. Below, there's a content area with text editor and media preview zone. A toolbar under the editor contains: media upload button (opens right side panel), GIF selection, emoji picker, location picker, and audience settings. The AI tool button in the toolbar opens a dropdown with: Generate, Complete, Rewrite, and Ideas. At the bottom of the modal, the user sees time selection (opens dropdown with workspace's preferred timetable) and action buttons (Save Draft, Schedule). When clicking media upload, a right panel slides in showing the media library grid with upload button and search functionality. The user can either upload from computer, select from existing media, or search GIFs.
 
-![alt text](/ui/wireframes/postCreate.png)
+![alt text](/wireframes/postCreate.png)
 
 Users see:
 - Social media account toggles
@@ -244,7 +244,7 @@ Users can:
 When clicking a post, a full-screen modal appears with a mini left sidebar containing a Ready/Draft toggle switch at top, followed by a vertical list of targeted social media platform icons (each showing remove button on hover), a plus button at the end for adding platforms, and the author's avatar at the bottom. The main header shows colored tag pills with a dropdown to add/edit tags on the left, and on the right: an AI tool button (dropdown with Generate, Complete, Rewrite), a three-dot menu (containing Audience Settings, Copy Post, Set as Template, Detach, Delete), and a close button. The main content area has navigation arrows (left) to switch between platform previews and a mobile/web toggle (right), followed by the content editor and preview area (if Mobile or Web not checked then its the edit mode else its a preview mode). A right sidebar shows two tabs: Comments and Activity, displaying the conversation thread or change history respectively. When clicking a platform icon in the mini sidebar, the content area updates to show that platform's specific preview.
 keep the same features of the post create modal in here.
 
-![alt text](/ui/wireframes/postSettings.png)
+![alt text](/wireframes/postSettings.png)
 
 Users see:
 - Left mini sidebar with:
